@@ -1,0 +1,52 @@
+@import url(../css/reset.css);
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  max-width: 1400px;
+  color: #000;
+}
+
+.container {
+  max-width: 1070px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  .header__top {
+    margin: 40px 0;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    align-items: center;
+    text-decoration: none;
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    .nav__page{
+      font-weight: 700;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+    .nav__logo {
+      flex-grow: 1;
+    }
+    .logo{
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 30px;
+      text-decoration: none;
+      color:#000;
+      img{
+        margin-right: 12px;
+      }
+    }
+  }
+}
